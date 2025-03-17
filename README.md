@@ -1,10 +1,3 @@
-# CMOS-Inverter-Design-MOSFET-Analysis-using-SKY130-PDK
-Certainly! Here's a structured description for your GitHub repository, aligned with the approach from the referenced project. Since you have your own files and images, you can integrate them accordingly.
-
----
-
-# **CMOS Inverter Design and Analysis Using SKY130 PDK**
-
 ## **Project Overview**
 This project focuses on the design and analysis of a CMOS inverter utilizing the open-source SKY130 Process Design Kit (PDK). The objective is to understand the fundamental behavior of NMOS and PMOS transistors and their integration into a CMOS inverter circuit.
 
@@ -36,26 +29,8 @@ This project focuses on the design and analysis of a CMOS inverter utilizing the
   - Performed Design Rule Checks (DRC) within Magic to ensure layout compliance.
   - Utilized Netgen to execute Layout Versus Schematic (LVS) checks, confirming that the layout accurately represents the schematic design.
 
-## **Repository Structure**
-```
-├── schematics/       # Contains Xschem schematic files for MOSFET characterization and CMOS inverter design
-├── simulations/      # Includes NGSpice simulation scripts and result data
-├── layouts/          # Houses Magic VLSI layout files
-├── verification/     # Stores DRC and LVS reports
-├── images/           # Directory for simulation waveforms, layout screenshots, and other relevant visuals
-└── README.md         # Project documentation and overview
-```
 
 ## **Results and Outcomes**
 - Successfully extracted key parameters from NMOS and PMOS transistors, providing insight into their performance within the SKY130 process.
 - Designed and simulated a CMOS inverter, achieving satisfactory VTC, noise margins, and propagation delays.
 - Completed the physical layout of the inverter, with all DRC and LVS checks passing, ensuring readiness for fabrication.
-
-## **Future Work**
-- Extend the methodology to design and analyze more complex digital circuits, such as logic gates and flip-flops.
-- Explore the effects of process variations on circuit performance and robustness.
-- Implement power analysis to evaluate the inverter's efficiency under different operating conditions.
-
----
-
-This structured description provides a comprehensive overview of your project, guiding visitors through the design and analysis process of a CMOS inverter using the SKY130 PDK. Incorporate your specific files and images into the respective directories to enhance the repository's clarity and depth. 
