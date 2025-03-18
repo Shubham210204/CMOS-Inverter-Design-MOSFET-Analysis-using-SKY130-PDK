@@ -16,6 +16,7 @@ This project focuses on the design and analysis of a CMOS inverter utilizing the
 nmos schematic(1.8v transistor model):
 ![nmos](https://github.com/user-attachments/assets/9d480514-c689-4462-950c-b2d4755d6ae5)
 
+
   - Performed DC simulations in NGSpice to extract parameters such as Vth, gm, and Rds.
 
 Plot of drain current(Id) vs Vgs at constant Vds(1.8v):
@@ -28,9 +29,10 @@ Plot of transconductance(gm):
 {gm = derivative of Id with respect to Vgs at constant Vds}
 ![gm](https://github.com/user-attachments/assets/07cf63ea-f41d-45eb-8347-688351cc95b5)
 
-Plot of draunresistance(rds):
+Plot of drainresistance(rds):
 {rds = derivative of Id with respect to Vds at constant Vgs}
 ![rds](https://github.com/user-attachments/assets/2104603a-2d9d-4ba4-812c-d66a8ce8f195)
+
 
   - Analyzed the impact of varying transistor dimensions (width and length) on their electrical characteristics.
 
