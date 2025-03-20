@@ -101,12 +101,20 @@ sudo make install
 
 ## **2. Analysis of MOSFET Models**
 
-### **2.1 General MOS Analysis**
-## **Description:**  
+### **2.1 General MOS Analysis**  
 - **Designed test circuits** for **NMOS and PMOS transistors** using **Xschem**.
-**NMOS schematic:**
-**PMOS schematic:** 
+<br> **NMOS schematic:** <img src="https://github.com/Shubham210204/CMOS-Inverter-Design-MOSFET-Analysis-using-SKY130-PDK/blob/main/images/mos_characteristics/nmos/nmos.png?raw=true"> <br>
+<br> **PMOS schematic:** <img src="https://github.com/Shubham210204/CMOS-Inverter-Design-MOSFET-Analysis-using-SKY130-PDK/blob/main/images/mos_characteristics/pmos/pmos.png?raw=true"> <br>
 - **Performed DC simulations** in **NGSpice** to extract parameters such as **Vth, gm,** and **Rds**.
-**NMOS parameters:**
-**PMOS parameters:**
+<br> **NMOS parameters:**
+<img src="https://github.com/Shubham210204/CMOS-Inverter-Design-MOSFET-Analysis-using-SKY130-PDK/blob/main/images/mos_characteristics/nmos/ID_vs_Vgs.png?raw=true"> <br>
+<img src="https://github.com/Shubham210204/CMOS-Inverter-Design-MOSFET-Analysis-using-SKY130-PDK/blob/main/images/mos_characteristics/nmos/Id_vs_Vds.png?raw=true"> <br>
+<img src="https://github.com/Shubham210204/CMOS-Inverter-Design-MOSFET-Analysis-using-SKY130-PDK/blob/main/images/mos_characteristics/nmos/gm.png?raw=true"> <br>
+<img src="https://github.com/Shubham210204/CMOS-Inverter-Design-MOSFET-Analysis-using-SKY130-PDK/blob/main/images/mos_characteristics/nmos/rds.png?raw=true"> <br>
+<img src="https://github.com/Shubham210204/CMOS-Inverter-Design-MOSFET-Analysis-using-SKY130-PDK/blob/main/images/mos_characteristics/strong0_week1/S0W1.png?raw=true"> <br>
+<br> **PMOS parameters:**
+<img src="https://github.com/Shubham210204/CMOS-Inverter-Design-MOSFET-Analysis-using-SKY130-PDK/blob/main/images/mos_characteristics/pmos/ID_vs_Vgs.png?raw=true"> <br>
+<img src="https://github.com/Shubham210204/CMOS-Inverter-Design-MOSFET-Analysis-using-SKY130-PDK/blob/main/images/mos_characteristics/pmos/Id_vs_Vds.png?raw=true"> <br>
+<img src="https://github.com/Shubham210204/CMOS-Inverter-Design-MOSFET-Analysis-using-SKY130-PDK/blob/main/images/mos_characteristics/pmos/gm.png?raw=true"> <br>
+<img src="https://github.com/Shubham210204/CMOS-Inverter-Design-MOSFET-Analysis-using-SKY130-PDK/blob/main/images/mos_characteristics/week0_strong1/W0S1.png?raw=true"> <br>
 - **Analyzed the impact** of varying **transistor dimensions** (width and length) on their **electrical characteristics**.
