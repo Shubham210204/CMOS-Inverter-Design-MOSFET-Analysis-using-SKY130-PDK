@@ -87,7 +87,7 @@ make
 sudo make install
 ```
 
-## **1.2 PDK Setup**
+### **1.2 PDK Setup**
 A **Process Design Kit (PDK)** contains libraries, rules, and models for **IC design and fabrication**.
 We will use **Google's SKY130 (130nm) PDK**.
 
