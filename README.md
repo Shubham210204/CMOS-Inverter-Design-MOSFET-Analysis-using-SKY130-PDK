@@ -1,5 +1,13 @@
 # **CMOS Inverter Design & MOSFET Analysis using SKY130 PDK**
 
+## **Project Overview**  
+This project focuses on the **design** and **analysis** of a **CMOS inverter** utilizing the open-source **SKY130 Process Design Kit (PDK)**. The objective is to understand the fundamental behavior of **NMOS** and **PMOS** transistors and their integration into a **CMOS inverter circuit**.  
+
+## **Objectives**  
+- **Characterize NMOS and PMOS transistors** to extract key parameters such as **threshold voltage (Vth), transconductance (gm),** and **drain-to-source resistance (Rds)**.  
+- **Design and simulate a CMOS inverter** to evaluate its performance metrics, including **voltage transfer characteristics (VTC), noise margins,** and **propagation delay**.  
+- **Develop the physical layout** of the **CMOS inverter**, ensuring **compliance with design rules** and verifying the **layout against the schematic**.
+
 ## **Contents**
 1. [Tool and PDK Setup](#1-tool-and-pdk-setup)
    - [1.1 Tools Setup](#11-tools-setup)
@@ -14,7 +22,6 @@
      - [3.1.2 DC Parametric Analysis](#322-dc-parametric-analysis)
 
 📌 **Section 1 has been referenced from VSDOPEN21_BGR Readme file**
-<br>
 
 ## **1. Tool and PDK Setup**
 
@@ -28,7 +35,6 @@ For designing and simulating our **CMOS Inverter**, we use the following tools:
 
 > **⚠️ Note:** Make sure all necessary libraries for these tools are installed on your system.  
 > 🔹 At least **50GB storage** and **8GB RAM** are recommended.
-<br>
 
 ### **1.1.1 Ngspice**
 **Ngspice** is an **open-source SPICE simulator** for electronic circuits.  
@@ -39,7 +45,6 @@ For designing and simulating our **CMOS Inverter**, we use the following tools:
 sudo apt install -y ngspice
 ngspice -v #verify install
 ```
-<br>
 
 ### **1.1.2 Magic VLSI**
 **Magic** is a **VLSI layout tool** for designing IC layouts.  
@@ -52,7 +57,6 @@ ngspice -v #verify install
 make
 sudo make install
 ```
-<br>
 
 ### **1.1.3 Netgen**
 **Netgen** is a tool for comparing netlists, a process known as **LVS (Layout vs. Schematic)**.  
@@ -66,7 +70,6 @@ cd netgen
 make
 sudo make install
 ```
-<br>
 
 ### **1.1.4 Xschem**
 **Xschem** is a **schematic capture tool** used for designing electronic circuits interactively.  
@@ -80,7 +83,6 @@ cd xschem
 make
 sudo make install
 ```
-<br>
 
 ## **1.2 PDK Setup**
 A **Process Design Kit (PDK)** contains libraries, rules, and models for **IC design and fabrication**.
@@ -96,8 +98,15 @@ sudo make install
 ```
 
 📌 **Here ends the Tools and PDK setup**
-<br><br>
 
 ## **2. Analysis of MOSFET Models**
 
 ### **2.1 General MOS Analysis**
+## **Description:**  
+- **Designed test circuits** for **NMOS and PMOS transistors** using **Xschem**.
+**NMOS schematic:**
+**PMOS schematic:** 
+- **Performed DC simulations** in **NGSpice** to extract parameters such as **Vth, gm,** and **Rds**.
+**NMOS parameters:**
+**PMOS parameters:**
+- **Analyzed the impact** of varying **transistor dimensions** (width and length) on their **electrical characteristics**.
